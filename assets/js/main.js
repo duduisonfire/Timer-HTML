@@ -17,7 +17,6 @@ iniciar.addEventListener('click', function(){
   clearTimeout(timer);
   timer = setInterval(function(){
     relogio.innerHTML = criaHoraDosSegundos(segundos);
-    console.log(segundos);
     segundos++;
   }, 1000);
 })
